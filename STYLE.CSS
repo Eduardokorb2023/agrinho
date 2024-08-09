@@ -1,0 +1,137 @@
+.im1{
+    margin: auto;
+    display: block;
+width: 41vw;
+background-color: rgb(150, 231, 95);
+}
+
+.horta{background-color: rgb(150, 231, 95);
+    color: rgb(0, 0, 0);
+    width: 100vw;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    font-size: 150%;
+}
+
+.edu{
+    font-size: 150%;
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+
+
+.Eduardo{
+    font-size: 300%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: rgb(150, 231, 95);
+}
+
+/*layout fluido*/
+
+
+.e{
+    color: rgb(0, 0, 0);
+background-color:rgb(70, 70, 70);
+
+}
+.di{
+    text-align: left;
+    background-color: rgb(150, 231, 95);
+}
+@media (max-width:500000000000px) { 
+    .im1{   margin: auto;
+        display: block;
+    width: 41vw;
+    background-color: rgb(150, 231, 95);}
+
+    
+    .horta {background-color: rgb(150, 231, 95);
+        color: rgb(0, 0, 0);
+        width: 100vw;
+        justify-content: space-around;
+        display: flex;
+        align-items: center;
+        font-size: 2vw;
+    }
+    
+    .edu{
+        font-size: 150vw;
+        color: rgb(0, 0, 0);
+        text-align: left;
+    }
+    
+    
+    .Eduardo{
+        font-size: 300vw;
+        color: rgb(0, 0, 0);
+        text-align: center;
+    }
+    
+    /*layout fluido*/
+    
+    
+    .e{
+        color: rgb(0, 0, 0);
+    background-color:rgb(70, 70, 70);
+    
+    }
+    .di{
+        text-align: left;
+    }
+}
+
+@media (min-width:1px)   {
+    .im1{   margin: auto;
+        display: block;
+    width: 41vw;
+    background-color: rgb(150, 231, 95);}
+    
+    
+    
+    .horta{background-color: rgb(150, 231, 95);
+        color: rgb(0, 0, 0);
+        width: 100vw;
+        justify-content: space-around;
+        display: flex;
+        align-items: center;
+        font-size: 2vw;
+    }
+    
+    .edu{
+        font-size: 2vw;
+        color: rgb(0, 0, 0);
+        text-align: left;
+    }
+    
+    
+    .Eduardo{
+        font-size: 300vw;
+        color: rgb(0, 0, 0);
+        align-items: center;
+    }
+    
+    /*layout fluido*/
+    
+    
+    .e{
+        color: rgb(0, 0, 0);
+    background-color:rgb(70, 70, 70);
+    
+    }
+    .di{
+        text-align: left;
+        font-size: 2vw;
+    }
+}
+
+.btn{
+    padding: 5px 5px;
+    width: 100px;
+    color: aliceblue;
+    border-radius: 5px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+}
